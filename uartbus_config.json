@@ -1,0 +1,201 @@
+[
+  {
+    "key": "UartChannelList",
+    "value": {
+      "object[]": [
+        {
+          "key": "object",
+          "value": {
+            "object[]": [
+              {
+                "key": "BaudRate",
+                "value": {
+                  "uint32": 1152500
+                },
+                "checksum": 4213107651
+              },
+              {
+                "key": "PackageInfo",
+                "value": {
+                  "object[]": [
+                    {
+                      "key": "object",
+                      "value": {
+                        "object[]": [
+                          {
+                            "key": "HeadType",
+                            "value": {
+                              "uint8": 1
+                            },
+                            "checksum": 4213107651
+                          },
+                          {
+                            "key": "DataType",
+                            "value": {
+                              "uint8": 2
+                            },
+                            "checksum": 1103247409
+                          },
+                          {
+                            "key": "FrameSyncConfig",
+                            "value": {
+                              "object[]": [
+                                {
+                                  "key": "SyncLength",
+                                  "value": {
+                                    "uint8": 2
+                                  },
+                                  "checksum": 4213107651
+                                },
+                                {
+                                  "key": "SyncData",
+                                  "value": {
+                                    "object[]": [
+                                      {
+                                        "key": "object",
+                                        "value": {
+                                          "uint8": 170
+                                        },
+                                        "checksum": 1360879489
+                                      },
+                                      {
+                                        "key": "object",
+                                        "value": {
+                                          "uint8": 68
+                                        },
+                                        "checksum": 264756932
+                                      }
+                                    ]
+                                  },
+                                  "checksum": 572302646
+                                }
+                              ]
+                            },
+                            "checksum": 1360879489
+                          },
+                          {
+                            "key": "PackageHeadIdConfig",
+                            "value": {
+                              "object[]": [
+                                {
+                                  "key": "HeadLengthPos",
+                                  "value": {
+                                    "uint8": 0
+                                  },
+                                  "checksum": 4213107651
+                                },
+                                {
+                                  "key": "HeadFixLength",
+                                  "value": {
+                                    "uint8": 8
+                                  },
+                                  "checksum": 1103247409
+                                }
+                              ]
+                            },
+                            "checksum": 1360879489
+                          },
+                          {
+                            "key": "PackageLengthConfig",
+                            "value": {
+                              "object[]": [
+                                {
+                                  "key": "DataLengthSignalPosStartByte",
+                                  "value": {
+                                    "uint8": 3
+                                  },
+                                  "checksum": 4213107651
+                                },
+                                {
+                                  "key": "DataLengthSignalSize",
+                                  "value": {
+                                    "uint8": 1
+                                  },
+                                  "checksum": 1103247409
+                                },
+                                {
+                                  "key": "DataFixLength",
+                                  "value": {
+                                    "uint8": 0
+                                  },
+                                  "checksum": 1103247409
+                                }
+                              ]
+                            },
+                            "checksum": 1360879489
+                          },
+                          {
+                            "key": "PackageChecksumConfig",
+                            "value": {
+                              "object[]": [
+                                {
+                                  "key": "ChecksumSignalStartPosStartByte",
+                                  "value": {
+                                    "uint8": 4
+                                  },
+                                  "checksum": 4213107651
+                                },
+                                {
+                                  "key": "ChecksumSignalLengthSize",
+                                  "value": {
+                                    "uint8": 2
+                                  },
+                                  "checksum": 1103247409
+                                },
+                                {
+                                  "key": "ChecksumType",
+                                  "value": {
+                                    "uint8": 0
+                                  },
+                                  "checksum": 1103247409
+                                }
+                              ]
+                            },
+                            "checksum": 1360879489
+                          }
+                        ]
+                      },
+                      "checksum": 1360879489
+                    }
+                  ]
+                },
+                "checksum": 572302646
+              }
+            ]
+          },
+          "checksum": 1360879489
+        }
+      ]
+    },
+    "checksum": 572302646
+  },
+  {
+    "key": "TimesyncConfig",
+    "value": {
+      "object[]": [
+        {
+          "key": "SourceChannel",
+          "value": {
+            "uint8": 1
+          },
+          "checksum": 4213107651
+        },
+        {
+          "key": "TimesyncSrcType",
+          "value": {
+            "uint8": 0
+          },
+          "checksum": 1103247409
+        }
+      ]
+    },
+    "checksum": 1360879489
+  },
+  {
+    "key": "version",
+    "value": {
+      "string": "1.0.1"
+    },
+    "checksum": 2704349418
+  }
+]
